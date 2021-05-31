@@ -1,0 +1,29 @@
+Q1:can we declare static method in Interface?
+Ans:No,we can declare static method in interface,because static method belongs to the class.not to the instance of the class.
+and interface are not classes.
+(Another answer is "YES").yes we can declare static method in interface ,but we cannot override them.
+-------------------------------------------------------------------------------
+Q2:what is Narrow Conversion?
+Ans:In java typecasting can do done impilicitly,but sometime,this will not fulfill the needs.like we cannot 
+assign int value to  a byte variable,because byte is smaller than int.This type of conversion is called 
+Narrowing conversion.means it will be done explicitly.
+---------------------------------------------------------------------------------
+In java automatic initialization is perfomred with the help of constructor.Constructor initialize an object upon creation.
+it has the name as of class name, and also it doesnot have any return type.once defined the constructor is automatically called
+when the object is created.
+constructor type:
+1.default
+2.Parameterized.
+--------------------------------------------------------------------------------------------------------------------------------------------
+why the exception will not be thrown when class extend another class and implements the inetrface,but also do not override the
+the method of interface....?
+----------------------------------------------------------------------------------------------------------
+(b)The JVM is responsible for loading and executing code on the Java platform. It uses a ClassLoader to load Java classes into the Java runtime environment
+Core java API Classes are load by the bootstrap classloader , Application specific classes are load by the system ClassLoader.
+Each ClassLoader has a parent ClassLoader except the BootStrap ClassLoader.
+The bootstrap ClassLoader searches in the locations (directories and zip/jar files) specified in the sun.boot.class.path system property.
+The system ClassLoader searches for 
+Classes in the locations specified by the classpath (set as the java.class.path system property) command-line variable passed in when a JVM starts executing.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+In static block we can give the noraml non-static datamember also.
+--------------------------------------------------------------------------------------
